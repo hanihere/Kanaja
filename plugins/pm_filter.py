@@ -745,16 +745,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('ADD ME TO YOUR GROUP', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('Add me to your Group', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('CHANNEL', url='https://t.me/H6niedits'),
-            InlineKeyboardButton('UPDATES', url='https://t.me/H6nihere')
+            InlineKeyboardButton('Channel', url='https://t.me/H6niedits'),
+            InlineKeyboardButton('Updates', url='https://t.me/H6nihere')
             ],[      
-            InlineKeyboardButton('HELP', callback_data='help'),
-            InlineKeyboardButton('CONNECT', url='https://t.me/Haniyshani'),
-            InlineKeyboardButton('ABOUT', callback_data='about')
+            InlineKeyboardButton('Help', callback_data='help'),
+            InlineKeyboardButton('Connect', url='https://t.me/Haniyshani')
             ],[
-            InlineKeyboardButton('SUBSCRIBE', url='https://youtube.com/channel/H6niedits')
+            InlineKeyboardButton('SUBSCRIBE', url='https://www.youtube.com/c/H6NIedits')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
