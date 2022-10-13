@@ -7,7 +7,7 @@ How can I help you?"""
 <b>✮ creator: <a href=https://t.me/haniyshani>Hani</a></b>
 <b>✮ updates: <a href=https://t.me/h6nihere>H6NIinlove</a></b>
 <b>✮ youtube: <a href=https://youtube.com/channel/H6niedits>H6NI-EDITS</a></b>"""
-     DONATE_TXT = """<b> </b>
+     DONATION_TXT = """<b>DONATE</b>
 
 ›› <b>𝐃𝐨𝐧𝐚𝐭𝐢𝐨𝐧</b>
 
